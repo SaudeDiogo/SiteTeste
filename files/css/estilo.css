@@ -2,6 +2,14 @@
 *    css pra testeß
 *
 *****/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Josefin+Slab:400,600,700|Raleway:400,600,700');
+/*
+*   para usar as fonts importadas
+*   font-family: 'Josefin Sans', sans-serif;
+*   font-family: 'Josefin Slab', serif;
+*   font-family: 'Raleway', sans-serif;
+*/
+
 body {
     display: flex;
 	flex-direction: column;
@@ -9,6 +17,18 @@ body {
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
+    background-color: #ededed;
+    font-size: 100%;
+}
+header {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    background: #861c1c;
+    max-width: 120em;
 }
 
 nav {
@@ -20,7 +40,7 @@ nav {
 	align-content: stretch;
 }
 
-ul {
+nav>ul {
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
