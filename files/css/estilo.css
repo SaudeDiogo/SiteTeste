@@ -12,13 +12,17 @@
 
 body {
     display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
     background-color: #ededed;
-    font-size: 100%;
+    font: 63% 'Raleway', sans-serif;
+    width: 100%;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
 }
 header {
     display: flex;
@@ -28,16 +32,19 @@ header {
 	align-items: stretch;
 	align-content: stretch;
     background: #861c1c;
-    max-width: 120em;
+    width: 120em;
 }
 
 nav {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    height: 7em;
+    background: #fff;
+    box-shadow: inset 0 0.5em #861c1c;
 }
 
 nav>ul {
@@ -56,6 +63,12 @@ section.banner {
 	justify-content: center;
 	align-items: flex-end;
 	align-content: stretch;
+    height: 50em;
+    background-image: pink url(../imgs/bannerCustoBeneficio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 main {
