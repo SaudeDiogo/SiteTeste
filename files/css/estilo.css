@@ -76,7 +76,7 @@ nav>ul {
     flex: 3;
     transform: translateY(.2em);
 }
-nav>ul>button{
+nav>ul>.primario{
     padding: .5em 1em .3em;
     font: .9em 'Josefin Sans', sans-serif;
     transform: translateY(-.15em);
