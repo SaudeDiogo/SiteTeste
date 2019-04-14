@@ -14,13 +14,13 @@
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="#">UXDiogo</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand logo" href="index.html">UXDiogo</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
                 id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects-with-sidebar.html">Sobre mim</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">Projetos</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">Sobre mim</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="projetos.html">Projetos</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="contato.html">Contato</a></li>
                 </ul>
             </div>
@@ -28,15 +28,31 @@
     </nav>
     <main class="page hire-me-page">
         <section class="portfolio-block hire-me">
-            <div class="container">
+            <div class="container d-flex flex-column flex-wrap contato">
                 <div class="heading">
-                    <h2>Contato</h2>
+                    <h2 class="d-flex d-xl-flex justify-content-center">Contato</h2>
                 </div>
-                <form data-bss-recipient="1777bf9c9fa01fc2a4011d8efcd8e660">
-                    <div class="form-group"><label for="subject">Nome</label><input class="form-control" type="text" name="nome"></div>
-                    <div class="form-group"><label for="email">E-mail</label>
-                        <div class="alert alert-info" role="alert"><span>Por favor, preencha se<strong>&nbsp;quiser</strong>&nbsp;que eu responda sua mensagem.</span></div><input class="form-control" type="email" name="email" id="email"></div>
-                    <div class="form-group"><label for="message">Mensagem</label><textarea class="form-control form-control-lg" id="message"></textarea></div><button class="btn btn-primary btn-block" type="submit">Enviar Mensagem</button></form>
+                <div class="d-flex justify-content-center">
+                    <div class="flex-column contact-info portfolio-info-card">
+                        <div class="row">
+                            <div class="col-1"><i class="icon ion-person icon"></i></div>
+                            <div class="col-9"><span>Diogo Saúde</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
+                            <div class="col-9"><span>61 98231-3333</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"><i class="icon ion-at icon"></i></div>
+                            <div class="col-9"><span>uxdiogo@gmail.com</span></div>
+                        </div>
+                    </div>
+                    <form class="flex-fill" data-bss-recipient="1777bf9c9fa01fc2a4011d8efcd8e660">
+                        <div class="form-group"><label for="subject">Nome</label><input class="form-control" type="text" name="nome"></div>
+                        <div class="form-group"><label for="email">E-mail</label>
+                            <div class="alert alert-info d-none" role="alert"><span>Por favor, preencha se<strong>&nbsp;quiser</strong>&nbsp;que eu responda sua mensagem.</span></div><input class="form-control" type="email" name="email" id="email"></div>
+                        <div class="form-group"><label for="message">Mensagem</label><textarea class="form-control form-control-lg" id="message"></textarea></div><button class="btn btn-primary btn-block" type="submit">Enviar Mensagem</button></form>
+                </div>
             </div>
         </section>
     </main>
@@ -50,7 +66,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js?h=63715b63ee49d5fe4844c2ecae071373"></script>
     <script src="assets/js/smart-forms.min.js?h=803c188723b94f8c48cfc1c03c65f256"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/script.min.js?h=f82c1f62e9f66b57f268c9f78badf050"></script>
+    <script src="assets/js/script.min.js?h=d41d8cd98f00b204e9800998ecf8427e"></script>
 </body>
 
 </html>
